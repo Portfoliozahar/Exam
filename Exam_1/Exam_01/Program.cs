@@ -1,6 +1,6 @@
-﻿string[] array1 = new string[5] {"1234", "Abc", "dog", ":-)","world"};
+﻿string[] array1 = new string[6] {"111", "1111", "hi", "+@$", "QWERTY","2**f**"};
 string[] array2 = new string[array1.Length];
-void SecondArraySymbolsThree(string[] array1, string[] array2)
+void ArrayThree(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -20,5 +20,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArraySymbolsThree(array1, array2);
+ArrayThree(array1, array2);
 PrintArray(array2);
